@@ -1,0 +1,27 @@
+version: "3.8"
+
+
+services:
+  HospitalSystem-db:
+    image: postgres:13.1-alpine
+    container_name: HospitalSystem-db
+    ports:
+      - "5432:5432"
+    restart: always
+    environment:
+      POSTGRES_USER: gorkem
+      POSTGRES_PASSWORD: gorkem
+      POSTGRES_DB: hospital
+
+
+  pgadmin5:
+    image: dpage/pgadmin4
+    container_name: HospitalSystem-pgadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "gorkem_bedel@hotmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "gorkem"
+    depends_on:
+      - HospitalSystem-db
