@@ -288,6 +288,17 @@
 > variable in the endpoint.
 
 >You must be authenticated and have "Laborant" role to reach that endpoint.
+#
+#
+## How to convert the source code into executable Jar file :
+>By entering the commandline of the maven in our IDE we can run our maven commands. With running "mvn package" command
+> the source codes can be converted to executable Jar file.
+![Photo1](Photos/mvn package.png)
+
+
+## How to close the application ? 
+> You just need to close the cmd file which the Jar file is running on. Then you need to double click on "OzgurLab Stop Database.bat" file.
+> That is going to close the docker containers and that is all. 
 
 
 
