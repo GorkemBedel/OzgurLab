@@ -19,7 +19,7 @@ public class AdminControllerTest {
     }
 
     @Test
-    void name() {
+    void namee() {
     }
 
     @AfterEach
