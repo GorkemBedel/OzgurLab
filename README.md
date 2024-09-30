@@ -293,7 +293,8 @@
 ## How to convert the source code into executable Jar file :
 >By entering the commandline of the maven in our IDE we can run our maven commands. With running "mvn package" command
 > the source codes can be converted to executable Jar file.
-![Photo2](Photos/mvn package.png)
+![Photo2](Photos/mvn%20package.png)
+
 
 
 ## How to close the application ? 
